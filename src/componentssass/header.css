@@ -10,9 +10,16 @@
 .navbar .container {
   display: flex;
 }
-.navbar .container .logo svg {
-  font-size: 50px;
-}
 .navbar .container h3 {
   color: #17353a;
+}
+@media (min-width: 992px) {
+  .navbar .logo img {
+    height: 65px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar .logo img {
+    height: 50px;
+  }
 }/*# sourceMappingURL=header.css.map */

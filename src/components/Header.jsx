@@ -1,13 +1,15 @@
 import React from 'react'
 import { SiCisco } from 'react-icons/si'
 import '../componentssass/header.css'
+import logo from '../assets/AboAyed.png'
 import { Link } from 'react-router-dom'
+
 const Header = () => {
     return (
-        <nav class="navbar ">
-            <div class="container">
-                <Link to='/' className='logo' >
-                    <SiCisco />
+        <nav className="navbar">
+            <div className="container">
+                <Link to='/' className='logo'>
+                    <img src={logo} alt="AboAyed" />
                 </Link>
 
                 <h3>

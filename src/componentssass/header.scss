@@ -12,13 +12,22 @@
   .container {
     display: flex;
 
-    .logo {
-      svg {
-        font-size: 50px;
-      }
-    }
     h3 {
       color: #17353a;
+    }
+  }
+  @media (min-width: 992px) {
+    .logo {
+      img {
+        height: 65px;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    .logo {
+      img {
+        height: 50px;
+      }
     }
   }
 }
