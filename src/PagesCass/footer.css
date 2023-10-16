@@ -88,4 +88,7 @@
     align-items: center;
     flex-direction: column;
   }
+  .footer .social h2 {
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=footer.css.map */

@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom'
 import '../PagesCass/footer.css'
-import { motion, } from 'framer-motion'
+
 import Animation from '../components/Animation'
 const Footer = () => {
 
@@ -10,7 +10,12 @@ const Footer = () => {
     return (
 
         <div className='footer ' >
+
+
+
             <Animation>
+
+
 
 
                 <div className='info' >
@@ -21,8 +26,8 @@ const Footer = () => {
                     <nav>
                         <ul>
                             <li> <Link>Jordan / Amman </Link> </li>
-                            <li> <Link>ahmad.ayed461@gmail.com </Link> </li>
-                            <li> <Link>+962797338050 </Link> </li>
+                            <li> <Link to='mailto:ahmad.ayed461@gmail.com' target='_blank'>ahmad.ayed461@gmail.com </Link> </li>
+                            <li> <Link to='https://api.whatsapp.com/send?phone=9627338050' target='_blank'>+962797338050 </Link> </li>
                         </ul>
                     </nav>
                 </div>
@@ -40,6 +45,7 @@ const Footer = () => {
                     </ul>
 
                 </Animation>
+
             </div>
 
 

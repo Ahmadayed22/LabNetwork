@@ -16,14 +16,11 @@ const Animation = ({ children, width = 'fit-content' }) => {
     visible: { opacity: 1, y: 0 },
   }
   return (
-    <div ref={ref} style={{ overflow: 'hidden' }}>
+    <div ref={ref} >
 
       <motion.div variants={variants} initial='hidden' animate={mainControls} transition={{ duration: 0.5, delay: 0.25 }}>
         {children}
       </motion.div>
-
-
-
 
     </div>
   )

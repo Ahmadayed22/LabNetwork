@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiCisco } from 'react-icons/si'
+// import { SiCisco } from 'react-icons/si'
 import '../componentssass/header.css'
 import logo from '../assets/AboAyed.png'
 import { Link } from 'react-router-dom'
