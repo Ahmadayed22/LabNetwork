@@ -1,0 +1,20 @@
+@use '../Sass/Colors' as *;
+@use '../Sass/Fixed' as *;
+.card {
+  border: 2px solid $Border-color;
+  transition: $transition;
+  -webkit-transition: $transition;
+
+  .card-body {
+    background-color: $Bg-card;
+    .card-text {
+      color: $text-color;
+      text-align: center;
+    }
+  }
+  &:hover {
+    @include Shadow;
+    filter: $filter;
+    -webkit-filter: $filter;
+  }
+}

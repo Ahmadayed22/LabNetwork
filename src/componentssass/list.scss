@@ -1,0 +1,41 @@
+@use '../Sass/Colors' as *;
+@use '../Sass/Fixed' as *;
+
+.list {
+  padding: 5px;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: start;
+  a {
+    color: $text-color;
+    text-transform: capitalize;
+    transition: $transition;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: -5px;
+      background-color: $Border-color;
+      transition: $transition;
+      -webkit-transition: $transition;
+      -moz-transition: $transition;
+      -ms-transition: $transition;
+      -o-transition: $transition;
+    }
+    &:hover {
+      color: $list-hover;
+      &::before {
+        background-color: $list-hover;
+      }
+    }
+    &.active {
+      color: $list-hover;
+
+      &::before {
+        background-color: $list-hover;
+      }
+    }
+  }
+}

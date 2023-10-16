@@ -1,0 +1,32 @@
+@use '../Sass//Colors' as *;
+.sidebar {
+  padding: 20px;
+  width: 300px;
+  background-color: $Bg-card;
+  box-shadow: 0 0 10px $Border-color;
+  z-index: 5;
+  h3 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 140px;
+      height: 2px;
+      background-color: $Border-color;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+    }
+  }
+  @media (max-width: 576px) {
+    & {
+      width: 200px;
+    }
+  }
+}

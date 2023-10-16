@@ -1,0 +1,60 @@
+.Cll {
+  padding-top: 15px;
+}
+.Cll .button {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.Cll .button .btn {
+  background-color: #def2f1;
+  color: #17353a;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+.Cll .links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  position: relative;
+}
+.Cll .links .link1 {
+  background-color: #2b7a78;
+  border-radius: 5px;
+}
+.Cll .links .link1 ul {
+  padding: 15px;
+}
+.Cll .links .link2 {
+  background-color: #2b7a78;
+  border-radius: 5px;
+  grid-column: 2;
+}
+.Cll .links .link2 ul {
+  padding: 15px;
+}
+@media (max-width: 767px) {
+  .Cll .button {
+    display: grid;
+    gap: 10px;
+  }
+  .Cll .button .btn {
+    font-size: 15px;
+  }
+  .Cll .links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .Cll .links .link1 ul {
+    padding: 5px;
+  }
+  .Cll .links .link2 {
+    background-color: #2b7a78;
+    border-radius: 5px;
+    grid-column: 1;
+  }
+  .Cll .links .link2 ul {
+    padding: 5px;
+  }
+}/*# sourceMappingURL=collapse.css.map */

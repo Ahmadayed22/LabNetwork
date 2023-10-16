@@ -1,0 +1,13 @@
+@use './Fixed' as *;
+@use './Colors' as *;
+@mixin border {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+  border: 1px solid $Border-color;
+}
+@mixin Shadow {
+  box-shadow: 0px 4px 6px rgba(113, 44, 249, 0.4);
+}

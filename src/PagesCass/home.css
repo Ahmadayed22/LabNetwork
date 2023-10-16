@@ -1,0 +1,16 @@
+.Home {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.Home h1 {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.Home .Images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+  place-items: center;
+}/*# sourceMappingURL=home.css.map */

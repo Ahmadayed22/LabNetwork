@@ -1,0 +1,28 @@
+li {
+  text-align: center;
+  margin-top: 15px;
+}
+li .Link_a {
+  color: white;
+}
+
+li {
+  text-align: center;
+  margin-top: 20px;
+}
+li .Link_a {
+  color: white;
+}
+li .Link_a:hover {
+  color: #17353a;
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  li a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  li a {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=link.css.map */

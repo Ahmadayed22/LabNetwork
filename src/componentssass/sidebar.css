@@ -1,0 +1,31 @@
+.sidebar {
+  padding: 20px;
+  width: 300px;
+  background-color: #2b7a78;
+  box-shadow: 0 0 10px #def2f1;
+  z-index: 5;
+}
+.sidebar h3 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sidebar h3::before {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 2px;
+  background-color: #def2f1;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+@media (max-width: 576px) {
+  .sidebar {
+    width: 200px;
+  }
+}/*# sourceMappingURL=sidebar.css.map */

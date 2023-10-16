@@ -1,0 +1,34 @@
+@use '../Sass/Colors' as *;
+@use '../Sass/Fixed' as *;
+@use '../Sass/mixin' as *;
+
+li {
+  text-align: center;
+  margin-top: 15px;
+  .Link_a {
+    color: $text-color;
+  }
+}
+
+li {
+  text-align: center;
+  margin-top: 20px;
+  .Link_a {
+    color: $text-color;
+    &:hover {
+      color: $list-hover;
+    }
+  }
+
+  @media (min-width: 767px) and (max-width: 992px) {
+    a {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    a {
+      font-size: 12px;
+    }
+  }
+}

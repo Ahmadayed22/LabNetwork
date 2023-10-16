@@ -1,0 +1,68 @@
+@use '../Sass/Colors' as *;
+@use '../Sass/Fixed' as *;
+@use '../Sass/mixin' as *;
+.Cll {
+  padding-top: $padding-T;
+  .button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    .btn {
+      background-color: $Border-color;
+      color: $buttonTextColor;
+      text-transform: capitalize;
+      font-size: 25px;
+    }
+  }
+  .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    position: relative;
+    .link1 {
+      background-color: $Bg-card;
+      border-radius: 5px;
+      ul {
+        padding: 15px;
+      }
+    }
+    .link2 {
+      ul {
+        padding: 15px;
+      }
+      background-color: $Bg-card;
+      border-radius: 5px;
+      grid-column: 2;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .button {
+      display: grid;
+
+      gap: 10px;
+      .btn {
+        font-size: 15px;
+      }
+    }
+    .links {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+
+      .link1 {
+        ul {
+          padding: 5px;
+        }
+      }
+      .link2 {
+        ul {
+          padding: 5px;
+        }
+        background-color: $Bg-card;
+        border-radius: 5px;
+        grid-column: 1;
+      }
+    }
+  }
+}

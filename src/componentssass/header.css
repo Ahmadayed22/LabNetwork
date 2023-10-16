@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #def2f1;
+  box-shadow: 0px 4px 6px rgba(104, 104, 104, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.navbar .container {
+  display: flex;
+}
+.navbar .container .logo svg {
+  font-size: 50px;
+}
+.navbar .container h3 {
+  color: #17353a;
+}/*# sourceMappingURL=header.css.map */

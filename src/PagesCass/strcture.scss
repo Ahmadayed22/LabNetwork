@@ -1,0 +1,13 @@
+@use '../Sass/Colors' as *;
+@use '../Sass/Fixed' as *;
+.Strcture {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: $text-color;
+  min-height: 93vh;
+
+  // .Video {
+  //   padding-top: $padding-T;
+  // }
+}
