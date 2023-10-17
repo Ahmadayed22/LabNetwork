@@ -104,4 +104,15 @@
       }
     }
   }
+  @media (max-width: 300px) {
+    .social {
+      ul {
+        li {
+          &:nth-last-child(1) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }

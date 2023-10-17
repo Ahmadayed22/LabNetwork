@@ -33,4 +33,17 @@
 }
 .list a.active::before {
   background-color: #17353a;
+}
+@media (max-width: 992px) {
+  .list {
+    text-align: start;
+  }
+  .list a::before {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
 }/*# sourceMappingURL=list.css.map */

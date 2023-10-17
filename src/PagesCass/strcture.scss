@@ -6,7 +6,11 @@
   justify-content: space-between;
   color: $text-color;
   min-height: 93vh;
-
+  @media (max-width: 992px) {
+    & {
+      flex-flow: row wrap;
+    }
+  }
   // .Video {
   //   padding-top: $padding-T;
   // }

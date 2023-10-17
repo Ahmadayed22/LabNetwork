@@ -91,4 +91,9 @@
   .footer .social h2 {
     margin-top: 10px;
   }
+}
+@media (max-width: 300px) {
+  .footer .social ul li:nth-last-child(1) {
+    display: none;
+  }
 }/*# sourceMappingURL=footer.css.map */

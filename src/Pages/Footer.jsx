@@ -10,14 +10,7 @@ const Footer = () => {
     return (
 
         <div className='footer ' >
-
-
-
             <Animation>
-
-
-
-
                 <div className='info' >
                     <div className='info_name'>
                         <h2>Ahmad ayed obaid </h2>
@@ -25,7 +18,7 @@ const Footer = () => {
                     </div>
                     <nav>
                         <ul>
-                            <li> <Link>Jordan / Amman </Link> </li>
+
                             <li> <Link to='mailto:ahmad.ayed461@gmail.com' target='_blank'>ahmad.ayed461@gmail.com </Link> </li>
                             <li> <Link to='https://api.whatsapp.com/send?phone=9627338050' target='_blank'>+962797338050 </Link> </li>
                         </ul>
