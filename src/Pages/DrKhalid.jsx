@@ -3,7 +3,7 @@ import Strcture from './Strcture'
 import { UserContext } from '../context/Context'
 import name from '../LoopComponents/name';
 const DrKhalid = () => {
-    const url = "https://www.youtube.com/embed/itzk1UxWowY?si=xLTaS7mWAQ7JbalK"
+    const url = "https://www.youtube.com/embed/9pFpvhoTX8g?si=34KyOVxrTduTOgBq"
     return (
         <UserContext.Provider value={url}>
             <Strcture name={name[10]} />
