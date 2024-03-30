@@ -10,8 +10,9 @@ const materialPaths = [
 
 const solutionPaths = [
     require('../assets/ComputerNetworkslab/exp6/Solution/Eigrp.jpg'),
+    require('../assets/ComputerNetworkslab/exp6/Solution/Exp6_ProblemSheet.pdf'),
     require('../assets/ComputerNetworkslab/exp6/Solution/Exp 6_Problem_1_EIGRP_IPv4.pka'),
-    require('../assets/ComputerNetworkslab/exp6/Solution/Exp 6_Problem_1_EIGRP_IPv4.pka')
+    require('../assets/ComputerNetworkslab/exp6/Solution/Exp 6_Problem_2_EIGRP_IPv6.pka')
 ];
 
 const listValue = {
